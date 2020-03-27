@@ -14,7 +14,7 @@ Dillinger is currently extended with the following plugins. Instructions on how 
 
 | Method / Function | Description |
 | ------ | ------ |
-| std::vector<std::string> n; | Init a vector of strings.|
+| std::vector<<std::string>> n; | Init a vector of strings.|
 | n.push_back("test"); | Insert the string "test" in the vector. |
 | n.size() | Return the size of the vector |
 | n.erase(n.end()) | Erase the last element of the vector. |
