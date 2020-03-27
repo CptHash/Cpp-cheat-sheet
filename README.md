@@ -14,11 +14,11 @@ Dillinger is currently extended with the following plugins. Instructions on how 
 
 | Method / Function | Description |
 | ------ | ------ |
-| std::vector<<std::string>> n; | Init a vector of strings.|
-| n.push_back("test"); | Insert the string "test" in the vector. |
-| n.size(); | Return the size of the vector |
-| n.erase(n.end()); | Erase the last element of the vector. |
-| vec.clear(); | Erase all the element of the vector. |
+|std::vector<<std::string>> vec; | Init a vector of strings.|
+|vec.push_back("test"); | Insert the string "test" in the vector. |
+|vec.size(); | Return the size of the vector |
+|vec.erase(n.end()); | Erase the last element of the vector. |
+|vec.clear(); | Erase all the element of the vector. |
 |vec.capacity(); | Return the number of elements allocated. |
 |vec.max_size(); | Return the maximum elements of vector. |
 |vec.empty();    | Return true if the vector is empty else return false. |
